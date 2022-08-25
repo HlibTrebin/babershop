@@ -23,41 +23,45 @@
   <body>
     <!-- header -->
     <header>
-      <a href="index.html">
-        <svg width="68.93" height="55.46">
-          <use href="./img/icons.svg#logo-icon"></use>
-        </svg>
-      </a>
+      <div class="container">
+        <a href="index.html">
+          <svg width="68.93" height="55.46">
+            <use href="./img/icons.svg#logo-icon"></use>
+          </svg>
+        </a>
 
-      <button type="button">
-        <svg
-          width="
+        <button type="button">
+          <svg
+            width="
           40"
-          height="40"
-        >
-          <use href="./img/icons.svg#icon-menu"></use>
-          <use href="./img/icons.svg#icon-cross"></use>
-        </svg>
-      </button>
+            height="40"
+          >
+            <use href="./img/icons.svg#icon-menu"></use>
+            <use href="./img/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
 
-      <p lang="en">A hair salon for men in Kyiv</p>
-      <h1 lang="en">BarberShop</h1>
-      <p>
-        Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
-        вкусом.
-      </p>
+        <p lang="en">A hair salon for men in Kyiv</p>
+        <h1 lang="en">BarberShop</h1>
+        <p>
+          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
+          вкусом.
+        </p>
+      </div>
     </header>
 
     <!-- main -->
     <main>
       <!-- hero -->
-      <section>
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h2 lang="en">BarberShop</h2>
-        <p>
-          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
-          вкусом.
-        </p>
+      <section class="hero">
+        <div class="container">
+          <p class="hero-text_top" lang="en">A hair salon for men in Kyiv</p>
+          <h2 class="hero-title" lang="en">BarberShop</h2>
+          <p class="hero-text_bottom">
+            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
+            со вкусом.
+          </p>
+        </div>
       </section>
 
       <!-- about us -->
@@ -82,47 +86,50 @@
       </section>
 
       <!-- price list -->
-      <section>
-        <h2>price list</h2>
-        <p>Проведи время в компании лучших мастеров</p>
-        <table>
-          <caption>
-            Услуги и цены
-          </caption>
-          <tr>
-            <td>Мужская стрижка</td>
-            <td>от 300 грн.</td>
-          </tr>
-          <tr>
-            <td>Стрижка бороды</td>
-            <td>от 200 грн.</td>
-          </tr>
-          <tr>
-            <td>Стрижка усов</td>
-            <td>от 200 грн.</td>
-          </tr>
-          <tr>
-            <td>Бритье опасной бритвой</td>
-            <td>от 200 грн.</td>
-          </tr>
-          <tr>
-            <td>Cтрижка у стажера</td>
-            <td>от 50 грн.</td>
-          </tr>
-          <tr>
-            <td>Стрижка под насадку</td>
-            <td>от 200 грн.</td>
-          </tr>
-          <tr>
-            <td>Детская стрижка (до 12 лет)</td>
-            <td>от 300 грн.</td>
-          </tr>
-          <tr>
-            <td>Камуфлирование седины</td>
-            <td>от 200 грн.</td>
-          </tr>
-        </table>
-        <button type="submit">онлайн-запись</button>
+      <section class="prices">
+        <div class="container">
+          <p class="prices-text_top">
+            Проведи время в компании лучших мастеров
+          </p>
+          <h2 class="prices-title">Услуги и цены</h2>
+          <table class="table">
+            <tr>
+              <td class="table-text">Мужская стрижка</td>
+              <td class="table-price">от 300 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Стрижка бороды</td>
+              <td class="table-price">от 200 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Стрижка усов</td>
+              <td class="table-price">от 200 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Бритье опасной бритвой</td>
+              <td class="table-price">от 200 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Cтрижка у стажера</td>
+              <td class="table-price">от 50 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Стрижка под насадку</td>
+              <td class="table-price">от 200 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Детская стрижка (до 12 лет)</td>
+              <td class="table-price">от 300 грн.</td>
+            </tr>
+            <tr>
+              <td class="table-text">Камуфлирование седины</td>
+              <td class="table-price">от 200 грн.</td>
+            </tr>
+          </table>
+          <button class="button button-prices" type="submit">
+            онлайн-запись
+          </button>
+        </div>
       </section>
 
       <!-- why us? -->
