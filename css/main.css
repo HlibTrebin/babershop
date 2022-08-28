@@ -61,6 +61,7 @@ ul {
 .hero {
   max-width: 480px;
   background-image: url("/img/hero/hero-mobile-x1.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .hero > .container {
@@ -168,7 +169,9 @@ ul {
 
 .prices {
   max-width: 480px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/img/prices/prices-mobile-x1.jpg");
+  background-color: #111319;
+  background-image: url("/img/prices/prices-mobile-x1.png");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
